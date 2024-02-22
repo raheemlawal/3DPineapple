@@ -13,6 +13,7 @@
 		576E63ED2B8700AF009CA8A1 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E63EC2B8700AF009CA8A1 /* ImmersiveView.swift */; };
 		576E63EF2B8700B0009CA8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576E63EE2B8700B0009CA8A1 /* Assets.xcassets */; };
 		576E63F22B8700B0009CA8A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576E63F12B8700B0009CA8A1 /* Preview Assets.xcassets */; };
+		576E63FA2B87012B009CA8A1 /* pineapple.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 576E63F92B87012B009CA8A1 /* pineapple.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		576E63EE2B8700B0009CA8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576E63F12B8700B0009CA8A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		576E63F32B8700B0009CA8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576E63F92B87012B009CA8A1 /* pineapple.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pineapple.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		576E63E32B8700AF009CA8A1 /* Real3DPineapple */ = {
 			isa = PBXGroup;
 			children = (
+				576E63F92B87012B009CA8A1 /* pineapple.usdz */,
 				576E63E82B8700AF009CA8A1 /* Real3DPineappleApp.swift */,
 				576E63EA2B8700AF009CA8A1 /* ContentView.swift */,
 				576E63EC2B8700AF009CA8A1 /* ImmersiveView.swift */,
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576E63FA2B87012B009CA8A1 /* pineapple.usdz in Resources */,
 				576E63F22B8700B0009CA8A1 /* Preview Assets.xcassets in Resources */,
 				576E63EF2B8700B0009CA8A1 /* Assets.xcassets in Resources */,
 			);

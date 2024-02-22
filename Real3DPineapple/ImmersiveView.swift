@@ -12,10 +12,16 @@ import RealityKitContent
 struct ImmersiveView: View {
     var body: some View {
         RealityView { content in
-            // Add the initial RealityKit content
-            if let scene = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
-                content.add(scene)
+            if let pineappleModel = try? await
+                Entity(named: "pineapple"),
+               let pineapple = pineappleModel.children.first?.children
+                .first {
+                pineapple.scale = [2, 2, 2]
+                pineapple.position.y = 0.5
+                pineapple.position.z = -1
+                content.add(pineapple)
             }
+            
         }
     }
 }
